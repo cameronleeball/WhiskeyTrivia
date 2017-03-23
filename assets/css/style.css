@@ -1,0 +1,53 @@
+h1 {
+	color: black;
+}
+
+h1 small {
+	color: white;
+}
+
+h2 {
+	color: black;
+}
+
+h2 small {
+	color: white;
+}
+
+body {
+	background-image: url("../images/warehouse.png");
+
+}
+
+.jumbotron {
+	position: relative;
+	background-color: rgba(171, 172, 171, .5);
+	color: white;
+}
+
+.well {
+	position: relative;
+	background-color: rgba(171, 172, 171, .5);
+	color: white;
+}
+
+#question {
+	display: none;
+}
+
+#progress {
+	background-color: rgba(171, 172, 171, .5);
+	display: none;
+}
+
+#footer {
+	position: fixed;
+	padding-left: 35%;
+	padding-right: 35%;
+	bottom: 0;
+}
+
+p {
+	color: white;
+	text-align: center; 
+}

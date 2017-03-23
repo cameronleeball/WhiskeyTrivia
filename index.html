@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Whiskey Trivia</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+						<h1>Whiskey Trivia <small>Test Your Knowledge!</small></h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+				
+					<div class="row">
+						<div class="col-md-12">
+							<div class="well">
+								<h3 id="question">Questions Will Go Here</h3>
+								<div id="answers">
+								</div>
+								<div id="info">
+									<h5>Time Remaining: <span id="time"></span></h5>
+								</div>
+								<button type="button" id="start" class="btn btn-danger btn-lg btn-block">New Game!</button>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="panel panel-defaul" id="progress">
+							<h2>Results: <small>Correct: <span id="right"></span> Missed: <span id="wrong"></span></small></h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div id="footer">
+						<p>WhiskeyBeat - © <span id="copyright"><a id="gclay" href="https://gclaywhittaker.com">Whittaker Editoral Services</a></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/scripts/game2.js"></script>
+</html>
